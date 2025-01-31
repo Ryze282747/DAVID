@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Reading Program</title>
+  <link rel="stylesheet" href="styles.css">
+  <link href="" rel="stylesheet">
+</head>
+<body>
+  <div class="container">
+    <h1>Reading Time!</h1>
+    <div id="wordContainer">
+      <span id="currentWord"></span>
+    </div>
+    <div class="controls">
+        <button id="playButton" onclick="playWord()">Play</button>
+        <button id="nextWordButton" onclick="nextWord()">Next Word</button>
+        <button id="showWordListButton" onclick="toggleWordList()">Show/Hide Word List</button>
+    </div>
+    <div class="letter-buttons"></div>
+    <div id="wordList" style="display: none;"> </div>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
